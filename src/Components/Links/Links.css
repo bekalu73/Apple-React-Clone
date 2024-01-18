@@ -1,0 +1,20 @@
+.btn {
+  color: #06c;
+  font-size: 20px;
+  border: transparent;
+  margin-right: 10px;
+  border-radius: 10px;
+  background-color: transparent;
+}
+button::after {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f105";
+  padding-left: 10px;
+  /* padding-top: 10px; */
+  display: inline-block;
+  font-size: 18px;
+}
+.btn:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,63 @@
+.row {
+  color: black;
+}
+.rowHeading {
+  text-align: center;
+  font-weight: bolder;
+  color: #1d1d1f;
+  opacity: 0.8;
+  padding-top: 50px;
+}
+/* .row {
+  position: relative;
+  top: 100px;
+} */
+.rowDescription {
+  text-align: center;
+  font-size: 24px;
+  line-height: 1.67;
+  font-weight: 400;
+  letter-spacing: 0.009em;
+  color: #1d1d1f;
+  opacity: 0.8;
+}
+/*____________________///the first media query break point begin here///_____________________*/
+
+.rowImgOne {
+  background-image: url("https://apple-clone-fed80.web.app/static/media/tile_macbookpro_lg_2x.0a85400a.jpg");
+  height: 580px;
+  text-align: center;
+  color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+.rowImgOne .rowDescription {
+  color: black;
+}
+.rowImgTwo {
+  background-image: url("../../images/home/promo_ipad_pro_md_2x.jpg");
+  width: 100%;
+  height: 580px;
+  text-align: center;
+  color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.rowImgTwo h1,
+.rowDescription {
+  color: white;
+}
+/*____________________///the 2nd media query break point begin here///_____________________*/
+
+@media (min-width: 700px) {
+  .row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin-top: 2rem;
+  }
+}

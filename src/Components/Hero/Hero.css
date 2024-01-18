@@ -1,0 +1,47 @@
+.hero {
+  color: black;
+}
+.heroHeading {
+  text-align: center;
+  font-weight: bolder;
+  color: #1d1d1f;
+  opacity: 0.8;
+  padding-top: 50px;
+}
+/* .hero {
+  position: relative;
+  top: 100px;
+} */
+.heroDescription {
+  text-align: center;
+  font-size: 24px;
+  line-height: 1.67;
+  font-weight: 400;
+  letter-spacing: 0.009em;
+  color: #1d1d1f;
+  opacity: 0.8;
+}
+/*____________________///the first media query break point begin here///_____________________*/
+
+.heroImg {
+  background-image: url("../../images/home/hero_iphone_13pro_md_tall_2x.jpg");
+  height: 580px;
+  text-align: center;
+  color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*____________________///the 2nd media query break point begin here///_____________________*/
+@media only screen and (min-width: 1069px) {
+  .heroImg {
+    background-image: url("../../images/home/hero_iphone_13pro_lg_tall_2x.jpg");
+    height: 580px;
+    text-align: center;
+    color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
